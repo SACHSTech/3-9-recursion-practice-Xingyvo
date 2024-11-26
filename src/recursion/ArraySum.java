@@ -24,5 +24,5 @@ public class ArraySum {
 
     // return 4 + sumarray(0) 4 + 0 = 4
 
-    // return 0
+    // sumarray(0 )returns 0
 }
