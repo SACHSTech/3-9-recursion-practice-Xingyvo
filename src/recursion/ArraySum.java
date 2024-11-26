@@ -16,13 +16,13 @@ public class ArraySum {
         System.out.println(sumArray(arr, 4)); // Output: 10
     }
 
-    // return 1 + sumArray(3) 1 + 9 = 10
+    // return 1 + sumArray(arr, 3) 1 + 9 = 10
 
-    // return 2 + sumArrya(2) 2 + 7 = 9
+    // return 2 + sumArray(arr, 2) 2 + 7 = 9
 
-    // return 3 + sumArray(1) 3 + 4 =7
+    // return 3 + sumArray(arr, 1) 3 + 4 =7
 
-    // return 4 + sumarray(0) 4 + 0 = 4
+    // return 4 + sumArray(arr, 0) 4 + 0 = 4
 
-    // sumarray(0 )returns 0
+    // sumArray(arr, 0)returns 0
 }
