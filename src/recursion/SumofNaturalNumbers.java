@@ -2,7 +2,7 @@ package recursion;
 
 public class SumofNaturalNumbers {
     public static int sum(int n) {
-        // Base case: 
+        // Base case: if n is 0, stop
         if (n <= 0) {
             return 0;
         }

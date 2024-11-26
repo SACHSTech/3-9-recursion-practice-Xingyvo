@@ -7,7 +7,7 @@ public class PowerFunction {
             return 1;
         }
 
-        // Recursive case
+        // Recursive case: multiply the base by the result of the last method called
         return base * power(base, exponent - 1);
     }
 
