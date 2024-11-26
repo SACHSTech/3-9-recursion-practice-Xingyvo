@@ -2,7 +2,13 @@ package recursion;
 
 public class SumofNaturalNumbers {
     public static int sum(int n) {
-        return 0;
+        // Base case: 
+        if (n <= 0) {
+            return 0;
+        }
+
+        // Recursive case: calls the method and adds the sums
+        return n + sum(n - 1);
     }
 
     public static void main(String[] args) {
